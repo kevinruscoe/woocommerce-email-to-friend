@@ -1,0 +1,8 @@
+{
+    "name": "kevinruscoe/woocommerce-email-to-friend",
+    "autoload": {
+        "files": [
+            "src/woocommerce-email-to-friend.php"
+        ]
+    }
+}
