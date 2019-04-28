@@ -60,6 +60,8 @@ add_action(
 
 			if ( ! isset( $_POST['recepient_email_address'] ) ) {
 				wc_add_notice( 'Please enter an email address.', 'error' );
+
+				return;
 			}
 
 			$email = is_email( wp_unslash( $_POST['recepient_email_address'] ) );
